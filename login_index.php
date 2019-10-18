@@ -71,10 +71,6 @@ if (isset($_SESSION['user_id'])) {
             <input type="password" class="form-control" id="password" name="password" placeholder="ingrese la contraseña" value="">
           
           </div>
-        <div class="form-group form-check">
-          <input name="remember" type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1"> <strong>Check me out</strong></label>
-        </div>
 
           <button type="submit" name="submit_login" class="btn btn-info form-control">enviar</button>
 
